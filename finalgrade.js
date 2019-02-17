@@ -14,9 +14,15 @@ function finalGrade (exam,projects) {
 let result = finalGrade (100, 12);
 console.log (result);
 result = finalGrade (99, 0);
+console.log (result);
 result = finalGrade (10, 15);
+console.log (result);
 result = finalGrade (85, 5);
+console.log (result);
 result = finalGrade (55, 3);
+console.log (result);
 result = finalGrade (55, 0);
+console.log (result);
 result = finalGrade (20, 2);
+console.log (result);
     
