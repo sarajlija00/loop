@@ -11,7 +11,14 @@ function finalGrade (exam,projects) {
     return 0;
 } 
 
-console.log (finalGrade);
+let result = finalGrade (100, 12);
+console.log (result);
+result = finalGrade (99, 0);
+result = finalGrade (10, 15);
+result = finalGrade (85, 5);
+result = finalGrade (55, 3);
+result = finalGrade (55, 0);
+result = finalGrade (20, 2);
     
 finalGrade (100, 12);
 finalGrade (99, 0);
