@@ -20,10 +20,3 @@ result = finalGrade (55, 3);
 result = finalGrade (55, 0);
 result = finalGrade (20, 2);
     
-finalGrade (100, 12);
-finalGrade (99, 0);
-finalGrade (10, 15);
-finalGrade (85, 5);
-finalGrade (55, 3);
-finalGrade (55, 0);
-finalGrade (20, 2);
