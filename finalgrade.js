@@ -1,23 +1,16 @@
 function finalGrade (exam,projects) {
-    const validGrade = exam > 0 && exam < 101;
-    if ( ! validGrade ){
-        console.log ("invalid");
-    
+  if (exam > 90 && projects < 10 ){
+    return 100;    
     }
-    if (exam > 90 && projects > 10) {
-        console.log (100);
-        
+  if (exam > 75 && projects <= 5) {
+    return 90;
     }
-    if (exam > 75 && projects <= 5) {
-        console.log (90);
-        
+  if (exam > 50 && projects <= 2) {
+    return 75;      
     }
-    if (exam > 50 && projects <= 2) {
-        console.log (75);
-        
-    }
-    
-    
+    return 0;
+    } 
+
 }
 
 
