@@ -2,9 +2,11 @@ let result = 1;
 let number = 1;
 function factorial (n) {
   while (number <= n) {
-    result = number * result, number++;   
-  } console.log (result);
-    
+    result = number * result; 
+    number++;   
+  }  
+  return result
 }
-factorial (5);
+
+console.log (factorial (5));
 
